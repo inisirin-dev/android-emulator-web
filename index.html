@@ -28,7 +28,27 @@ border:none;
 </style>
 </head>
 
-<body>
+<body<body style="background:black;text-align:center;color:white;">
+
+<h2>Android Emulator</h2>
+
+<button onclick="startEmu()" 
+style="padding:10px 20px;font-size:16px;">
+START EMULATOR
+</button>
+
+<br><br>
+
+<div id="emu"></div>
+
+<script>
+function startEmu(){
+document.getElementById("emu").innerHTML =
+'<iframe src="https://appetize.io/embed/" width="360" height="640"></iframe>';
+}
+</script>
+
+</body>>
 
 <div class="phone">
 <iframe src="https://appetize.io/embed/"></iframe>
